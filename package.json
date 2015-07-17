@@ -1,0 +1,21 @@
+{
+  "name": "AppSimple",
+  "version": "0.0.1",
+  "private": true,
+  "description": "An example module to illustrate basic AJS features and usage of a package.json",
+  "author": "Iasen Drenski <iasen.drenski@ingbank.com>",
+  "contributors": [{
+    "name": "OREILLY"
+  }],
+
+  "license": "MIT",
+
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/npm/npm.git"
+  },
+
+  "scripts": {
+    "start": "http-server -a 127.0.0.1 -p 1337 -c-1"
+  }
+}
